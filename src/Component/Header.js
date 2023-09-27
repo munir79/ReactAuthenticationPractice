@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <Link to='/login'> Log in </Link>
             <Link to='/registar'> Registar </Link>
-            <p> { <span>wellcome {user?.displayName} </span> } </p>
+            <p> { <span>wellcome {user?.email} </span> } </p>
             
         </div>
     );
